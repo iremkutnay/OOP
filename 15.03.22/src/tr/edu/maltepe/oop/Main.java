@@ -7,5 +7,9 @@ class Main {
 
     System.out.println(student.getName()+ " "+ student.getSurname()+" "+student.getId());
     System.out.println(professor.getName()+ " "+ professor.getSurname()+" "+professor.getId());
+
+    student.studies();
+    professor.teaches();
+
     }
 }
